@@ -71,7 +71,7 @@ header h1 {
 }
 
 /* Change color on hover */
-.topnav a:hover {
+#myLinks a:hover {
     background-color: #3498DB; /* Blue-Green for hover */
     color: white;
 }
