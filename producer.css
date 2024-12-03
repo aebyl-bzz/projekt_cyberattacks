@@ -1,0 +1,164 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9; /* Heller Hintergrund für gute Lesbarkeit */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #2C3E50; /* Dunkelblauer Hintergrund */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .topnav a.active {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Navigation Styles */
+.topnav {
+    background-color: #2C3E50; /* Dunkelblauer Hintergrund */
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none; /* Navigation-Links standardmäßig verstecken */
+    width: 100%;
+    background-color: #2C3E50;
+    padding-top: 50px; /* Platz für das Hamburger-Menü */
+}
+
+.topnav a {
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+
+.topnav a.icon {
+    display: block; /* Hamburger-Symbol */
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 14px 20px;
+    font-size: 24px;
+}
+
+.topnav.responsive #myLinks {
+    display: block; /* Navigation sichtbar im responsive Modus */
+}
+
+.topnav a:hover {
+    background-color: #3498DB; /* Helles Blau bei Hover */
+    color: white;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff; /* Weißer Hintergrund für Klarheit */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Dezente Schatten */
+    border-radius: 8px;
+}
+
+h1 {
+    color: #2C3E50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2C3E50;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* List Styles */
+ol, ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+ol > li, ul > li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+ul > li > ul > li {
+    font-size: 1em;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+/* Image Styling */
+.cyberdomainimg img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cyberdomainimg a {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    color: #3498DB;
+    text-decoration: none;
+    font-size: 0.9em;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 0.4em 0.8em;
+    border-radius: 0.5em;
+}
+
+.cyberdomainimg a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .topnav a.icon {
+        display: block;
+    }
+
+    .topnav.responsive #myLinks {
+        display: block;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    p, ol > li, ul > li {
+        font-size: 1em;
+    }
+}
