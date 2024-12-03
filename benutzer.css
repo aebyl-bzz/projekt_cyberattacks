@@ -1,0 +1,91 @@
+/* Set a modern font for the page */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #2C3E50; /* Dark Blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Logo link inside header */
+header .topnav a.active {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation menu */
+.topnav {
+    background-color: #2C3E50; /* Dark Blue */
+    overflow: hidden;
+    position: relative;
+}
+
+/* Navigation links container */
+.topnav #myLinks {
+    display: none; /* By default, hide the links */
+    width: 100%;
+    background-color: #2C3E50; /* Dark Blue */
+    padding-top: 60px; /* Space for the hamburger icon */
+}
+
+/* Navigation links style */
+.topnav a {
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.topnav a.icon {
+    background-color: #2C3E50; /* Same Dark Blue for Hamburger icon */
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 16px;
+    font-size: 30px;
+}
+
+/* Show the links when the menu is responsive */
+@media screen and (max-width: 768px) {
+    .topnav a.icon {
+        display: block; /* Hamburger icon visible on mobile */
+    }
+
+    .topnav.responsive #myLinks {
+        display: block; /* Make links visible in the responsive state */
+    }
+
+    .topnav a {
+        text-align: center;
+        padding: 15px;
+        border-top: 1px solid #ddd;
+    }
+}
+
+/* Remove hover effect on the burger icon */
+.topnav a.icon:hover {
+    background-color: #2C3E50; /* Keep the background color the same when hovered */
+}
+
+/* Change color on hover for links in #myLinks */
+#myLinks a:hover {
+    background-color: #3498DB; /* Light Blue for hover */
+    color: white;
+}
+
+/* Style the active link */
+.active {
+    background-color: #2C3E50; /* Light Blue for active link */
+    color: white;
+}
