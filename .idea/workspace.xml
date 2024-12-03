@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="Producer.html und producer.css erstellt und erledigt. Aktienkurse müssen noch hinzugefügt werden">
+      <change beforePath="$PROJECT_DIR$/producer.html" beforeDir="false" afterPath="$PROJECT_DIR$/producer.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2olEOEYsyFGiArVMyPPkVS8N1qA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/enzot/WebstormProjects/projekt_cyberattacks/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\images" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="" />
+      <created>1731435731244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731435731244</updated>
+      <workItem from="1731435734399" duration="4000" />
+      <workItem from="1732019489392" duration="3864000" />
+      <workItem from="1732089091365" duration="41000" />
+      <workItem from="1732093650251" duration="1618000" />
+      <workItem from="1732543727478" duration="925000" />
+      <workItem from="1732703833059" duration="53000" />
+      <workItem from="1732798357478" duration="1167000" />
+      <workItem from="1732970840378" duration="4983000" />
+      <workItem from="1733079183759" duration="42000" />
+      <workItem from="1733158820302" duration="38000" />
+      <workItem from="1733235710415" duration="3673000" />
+    </task>
+    <task id="LOCAL-00001" summary="Grundstruktur erstes Update">
+      <option name="closed" value="true" />
+      <created>1732020359287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732020359287</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Main relativ weit mit HTML">
+      <option name="closed" value="true" />
+      <created>1732025218063</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732025218064</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Im Main das Burgermenu erledigt">
+      <option name="closed" value="true" />
+      <created>1732544627362</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732544627362</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Main gestylte so dass es moderner aussieht es muss noch einwenig überarbeitet werden">
+      <option name="closed" value="true" />
+      <created>1732975211654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732975211654</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Main stylesheet.css angepasst und erstellt cyberattacks.css">
+      <option name="closed" value="true" />
+      <created>1732976518414</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732976518414</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Producer.html und producer.css erstellt und erledigt. Aktienkurse müssen noch hinzugefügt werden">
+      <option name="closed" value="true" />
+      <created>1733239187563</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733239187563</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Producer.html und producer.css erstellt und erledigt. Aktienkurse müssen noch hinzugefügt werden">
+      <option name="closed" value="true" />
+      <created>1733239281726</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733239281726</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Grundstruktur erstes Update" />
+    <MESSAGE value="Main relativ weit mit HTML" />
+    <MESSAGE value="Im Main das Burgermenu erledigt" />
+    <MESSAGE value="Main gestylte so dass es moderner aussieht es muss noch einwenig überarbeitet werden" />
+    <MESSAGE value="Main stylesheet.css angepasst und erstellt cyberattacks.css" />
+    <MESSAGE value="Producer.html und producer.css erstellt und erledigt. Aktienkurse müssen noch hinzugefügt werden" />
+    <option name="LAST_COMMIT_MESSAGE" value="Producer.html und producer.css erstellt und erledigt. Aktienkurse müssen noch hinzugefügt werden" />
+  </component>
+</project>
