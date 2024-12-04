@@ -57,7 +57,7 @@ header .topnav a.active {
     display: block; /* Navigation sichtbar im responsive Modus */
 }
 
-.topnav a:hover {
+#myLinks a:hover {
     background-color: #3498DB; /* Helles Blau bei Hover */
     color: white;
 }
