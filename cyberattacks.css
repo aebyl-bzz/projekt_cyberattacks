@@ -82,6 +82,7 @@ header .topnav a.active {
 #myLinks a:hover {
     background-color: #3498DB; /* Light Blue for hover */
     color: white;
+    style: underline;
 }
 
 /* Style the active link */

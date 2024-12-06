@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="Producer.html und producer.css erstellt und erledigt. Aktienkurse müssen noch hinzugefügt werden">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer.css" beforeDir="false" afterPath="$PROJECT_DIR$/producer.css" afterDir="false" />
-    </list>
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="Top nav ein wenig angepasst" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +77,7 @@
       <workItem from="1733158820302" duration="38000" />
       <workItem from="1733235710415" duration="3955000" />
       <workItem from="1733305505819" duration="138000" />
-      <workItem from="1733306279649" duration="320000" />
+      <workItem from="1733306279649" duration="352000" />
     </task>
     <task id="LOCAL-00001" summary="Grundstruktur erstes Update">
       <option name="closed" value="true" />
@@ -138,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733239281726</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Top nav ein wenig angepasst">
+      <option name="closed" value="true" />
+      <created>1733306628921</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733306628921</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +156,7 @@
     <MESSAGE value="Main gestylte so dass es moderner aussieht es muss noch einwenig überarbeitet werden" />
     <MESSAGE value="Main stylesheet.css angepasst und erstellt cyberattacks.css" />
     <MESSAGE value="Producer.html und producer.css erstellt und erledigt. Aktienkurse müssen noch hinzugefügt werden" />
-    <option name="LAST_COMMIT_MESSAGE" value="Producer.html und producer.css erstellt und erledigt. Aktienkurse müssen noch hinzugefügt werden" />
+    <MESSAGE value="Top nav ein wenig angepasst" />
+    <option name="LAST_COMMIT_MESSAGE" value="Top nav ein wenig angepasst" />
   </component>
 </project>
