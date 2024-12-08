@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="Top nav ein wenig angepasst" />
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="header in benutzer.html und protection.html gelöscht">
+      <change afterPath="$PROJECT_DIR$/benutzer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benutzer.css" beforeDir="false" afterPath="$PROJECT_DIR$/benutzer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benutzer.html" beforeDir="false" afterPath="$PROJECT_DIR$/benutzer.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,6 +162,7 @@
     <MESSAGE value="Main stylesheet.css angepasst und erstellt cyberattacks.css" />
     <MESSAGE value="Producer.html und producer.css erstellt und erledigt. Aktienkurse müssen noch hinzugefügt werden" />
     <MESSAGE value="Top nav ein wenig angepasst" />
-    <option name="LAST_COMMIT_MESSAGE" value="Top nav ein wenig angepasst" />
+    <MESSAGE value="header in benutzer.html und protection.html gelöscht" />
+    <option name="LAST_COMMIT_MESSAGE" value="header in benutzer.html und protection.html gelöscht" />
   </component>
 </project>
