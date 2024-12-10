@@ -1,0 +1,174 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #2C3E50; /* Dark Blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+/* Navigation menu */
+.topnav {
+    background-color: #2C3E50; /* Dark Blue */
+    overflow: hidden;
+    position: relative;
+}
+
+/* Navigation links container */
+.topnav #myLinks {
+    display: none; /* By default, hide the links */
+    width: 100%;
+    background-color: #2C3E50; /* Dark Blue */
+    padding-top: 60px; /* Space for the hamburger icon */
+}
+
+.topnav a {
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.topnav a.icon {
+    background-color: #2C3E50; /* Light Blue for Hamburger icon */
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 16px;
+    font-size: 30px;
+}
+
+/* Show the links when the menu is responsive */
+@media screen and (max-width: 768px) {
+    .topnav a.icon {
+        display: block; /* Hamburger icon visible on mobile */
+    }
+
+    .topnav.responsive #myLinks {
+        display: block; /* Make links visible in the responsive state */
+    }
+
+    .topnav a {
+        text-align: center;
+        padding: 15px;
+        border-top: 1px solid #ddd;
+    }
+}
+
+/* Change color on hover */
+#myLinks a:hover {
+    background-color: #3498DB; /* Blue-Green for hover */
+    color: white;
+}
+
+/* Style the active link */
+.active {
+    background-color: #2C3E50; /* Light Blue for active link */
+    color: white;
+}
+
+/* Content Section */
+.generalcont {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.generalcont h2 {
+    color: #2C3E50; /* Dark Blue for headers */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.generalcont p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Image styling */
+.cyberdomainimg {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.cyberdomainimg img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cyberdomainimg a {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    color: #3498DB; /* Light Blue */
+    text-decoration: none;
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 0.3em 0.6em;
+    border-radius: 0.5em;
+}
+
+.cyberdomainimg a:hover {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+/* Flexbox for content alignment */
+.question1flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.cyberdomaincont {
+    flex: 1;
+    padding-right: 20px;
+}
+
+/* Styling links in general */
+a {
+    text-decoration: none;
+    color: #3498DB; /* Light Blue for links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+footer{
+    background-color: #2C3E50; /* Dark Blue */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+footer img{
+    width: 50px;
+    height: auto;
+}
+.footercont{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
