@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="New files added">
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="stylesheet.css angepasst">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,21 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/enzot/WebstormProjects/projekt_cyberattacks/images",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/enzot/WebstormProjects/projekt_cyberattacks/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\images" />
@@ -94,7 +93,8 @@
       <workItem from="1733763841845" duration="28000" />
       <workItem from="1733816478623" duration="774000" />
       <workItem from="1733831041595" duration="826000" />
-      <workItem from="1733834135563" duration="5563000" />
+      <workItem from="1733834135563" duration="5584000" />
+      <workItem from="1733839839748" duration="1517000" />
     </task>
     <task id="LOCAL-00001" summary="Grundstruktur erstes Update">
       <option name="closed" value="true" />
@@ -200,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733837400065</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="stylesheet.css angepasst">
+      <option name="closed" value="true" />
+      <created>1733839807067</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733839807067</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +228,7 @@
     <MESSAGE value="changed the sturctur" />
     <MESSAGE value="updated the links" />
     <MESSAGE value="New files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="New files added" />
+    <MESSAGE value="stylesheet.css angepasst" />
+    <option name="LAST_COMMIT_MESSAGE" value="stylesheet.css angepasst" />
   </component>
 </project>
