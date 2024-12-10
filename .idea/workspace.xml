@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="header in benutzer.html und protection.html gelöscht">
-      <change afterPath="$PROJECT_DIR$/benutzer.js" afterDir="false" />
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="layout changed">
+      <change afterPath="$PROJECT_DIR$/images/25231.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benutzer.css" beforeDir="false" afterPath="$PROJECT_DIR$/benutzer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benutzer.html" beforeDir="false" afterPath="$PROJECT_DIR$/benutzer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,8 @@
       <workItem from="1733235710415" duration="3955000" />
       <workItem from="1733305505819" duration="138000" />
       <workItem from="1733306279649" duration="352000" />
+      <workItem from="1733763841845" duration="28000" />
+      <workItem from="1733816478623" duration="662000" />
     </task>
     <task id="LOCAL-00001" summary="Grundstruktur erstes Update">
       <option name="closed" value="true" />
@@ -148,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733306628921</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="layout changed">
+      <option name="closed" value="true" />
+      <created>1733685438093</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733685438093</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +173,7 @@
     <MESSAGE value="Producer.html und producer.css erstellt und erledigt. Aktienkurse müssen noch hinzugefügt werden" />
     <MESSAGE value="Top nav ein wenig angepasst" />
     <MESSAGE value="header in benutzer.html und protection.html gelöscht" />
-    <option name="LAST_COMMIT_MESSAGE" value="header in benutzer.html und protection.html gelöscht" />
+    <MESSAGE value="layout changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="layout changed" />
   </component>
 </project>
