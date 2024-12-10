@@ -1,183 +1,189 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+/* Allgemeine Schriftart und Grundlayout */
+body, h1, h2, h3, p, ul, li, a {
+    font-family: Arial, Helvetica, sans-serif; /* Einheitliche Schrift */
+    color: #2C3E50; /* Standardfarbe für Text */
     margin: 0;
     padding: 0;
 }
 
-/* Header styles */
+body {
+    background-color: #F8F9FA; /* Dezenter Hintergrund */
+}
+
 header {
-    background-color: #2C3E50; /* Dark Blue */
+    background-color: #2C3E50; /* Dunkelblauer Hintergrund */
     color: white;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
-header h1 {
-    font-size: 2.5em;
-    letter-spacing: 2px;
+header .topnav a.active {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-/* Navigation menu */
+/* Navigation Styles */
 .topnav {
-    background-color: #2C3E50; /* Dark Blue */
+    background-color: #2C3E50;
     overflow: hidden;
     position: relative;
 }
 
-/* Navigation links container */
 .topnav #myLinks {
-    display: none; /* By default, hide the links */
+    display: none; /* Standardmäßig Navigation versteckt */
     width: 100%;
-    background-color: #2C3E50; /* Dark Blue */
-    padding-top: 60px; /* Space for the hamburger icon */
+    background-color: #2C3E50;
+    padding-top: 50px; /* Platz für das Hamburger-Menü */
 }
 
 .topnav a {
     color: white;
-    padding: 16px 20px;
+    padding: 12px 20px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     display: block;
 }
 
 .topnav a.icon {
-    background-color: #2C3E50; /* Light Blue for Hamburger icon */
-    display: block;
+    display: block; /* Hamburger-Symbol */
     position: absolute;
     right: 0;
     top: 0;
-    padding: 16px;
-    font-size: 30px;
+    padding: 14px 20px;
+    font-size: 24px;
+    cursor: pointer;
 }
 
-/* Show the links when the menu is responsive */
-@media screen and (max-width: 768px) {
-    .topnav a.icon {
-        display: block; /* Hamburger icon visible on mobile */
-    }
-
-    .topnav.responsive #myLinks {
-        display: block; /* Make links visible in the responsive state */
-    }
-
-    .topnav a {
-        text-align: center;
-        padding: 15px;
-        border-top: 1px solid #ddd;
-    }
+.topnav.responsive #myLinks {
+    display: block; /* Navigation sichtbar im responsive Modus */
 }
 
-/* Change color on hover */
 #myLinks a:hover {
-    background-color: #3498DB; /* Blue-Green for hover */
-    color: white;
+    background-color: #3498DB;
 }
 
-/* Style the active link */
-.active {
-    background-color: #2C3E50; /* Light Blue for active link */
-    color: white;
-}
-
-/* Content Section */
-.generalcont {
-    padding: 40px 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.generalcont h2 {
-    color: #2C3E50; /* Dark Blue for headers */
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.generalcont p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    color: #555;
-}
-
-/* Image styling */
-.cyberdomainimg {
-    width: 100%;
-    height: auto;
-    display: block;
-    position: relative;
-}
-
-.cyberdomainimg img {
-    max-width: 100%;
-    height: auto;
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
     border-radius: 8px;
 }
 
-.cyberdomainimg a {
-    position: absolute;
-    bottom: 1em;
-    right: 1em;
-    color: #3498DB; /* Light Blue */
-    text-decoration: none;
-    font-size: 1em;
-    background: rgba(255, 255, 255, 0.7);
-    padding: 0.3em 0.6em;
-    border-radius: 0.5em;
+main h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #3498DB;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
 }
 
-.cyberdomainimg a:hover {
-    background: rgba(0, 0, 0, 0.7);
-    color: #fff;
+main h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #34495E;
 }
 
-/* Flexbox for content alignment */
-.question1flex {
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Timeline Section */
+.timelineflex {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.cyberdomaincont {
-    flex: 1;
-    padding-right: 20px;
+.timelinecontent {
+    margin-bottom: 30px;
 }
 
-/* Styling links in general */
-a {
-    text-decoration: none;
-    color: #3498DB; /* Light Blue for links */
+/* Impact Section Styles */
+#impact {
+    margin-top: 40px;
 }
 
-a:hover {
-    text-decoration: underline;
+.impact-group {
+    margin-bottom: 20px;
+    background: #F4F6F8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Leichte Schatten für Gruppen */
 }
-footer{
-    background-color: #2C3E50; /* Dark Blue */
+
+.impact-group h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #2C3E50;
+}
+
+.impact-group p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .topnav a.icon {
+        display: block;
+    }
+
+    .topnav.responsive #myLinks {
+        display: block;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2C3E50;
     color: white;
     text-align: center;
     padding: 20px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin-top: 20px;
 }
-footer img{
-    width: 50px;
-    height: auto;
-}
-.footercont{
-    display: block;
-    justify-content: start;
-    align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+footer nav {
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer a:hover {
+    color: #3498DB;
+}
+
+footer .p-3 {
     margin-top: 10px;
-
-
-
-
+    font-size: 14px;
 }
