@@ -3,6 +3,9 @@ body, h1, h2, h3, p, ul, li, a {
     font-family: Arial, Helvetica, sans-serif; /* Einheitliche Schrift */
     color: #2C3E50; /* Standardfarbe für Text */
 }
+body{
+    margin : 0;
+}
 
 header {
     background-color: #2C3E50; /* Dunkelblauer Hintergrund */
