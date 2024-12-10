@@ -1,31 +1,50 @@
-/* Allgemeine Schrift und Layout */
+/* General Styles */
 body, h1, h2, h3, p, a {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #2C3E50; /* Standardfarbe für Text */
+    color: #2C3E50;
 }
 
 body {
-    background-color: #F8F9FA; /* Dezenter Hintergrund */
+    background-color: #F8F9FA;
+    padding-top: 60px; /* Add padding to avoid content being hidden behind the fixed topnav */
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 header {
-    background-color: #2C3E50; /* Dunkelblau für den Header */
+    background-color: #2C3E50;
     color: white;
     padding: 15px 0;
     text-align: center;
+    transition: background-color 0.3s ease;
 }
 
 /* Navigation Styling */
 .topnav {
     background-color: #2C3E50;
     overflow: hidden;
-    position: relative;
+    position: fixed; /* Fix the topnav at the top */
+    top: 0; /* Position it at the top of the page */
+    width: 100%; /* Make it span the full width of the page */
+    z-index: 1000; /* Ensure it stays above other content */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .topnav #myLinks {
-    display: none; /* Versteckte Links im Normalfall */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.topnav.responsive #myLinks {
+    max-height: 500px;
 }
 
 .topnav a {
@@ -34,6 +53,7 @@ header {
     text-decoration: none;
     font-size: 16px;
     display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .topnav a.icon {
@@ -44,22 +64,22 @@ header {
     padding: 14px 20px;
     font-size: 24px;
     cursor: pointer;
-}
-
-.topnav.responsive #myLinks {
-    display: block; /* Sichtbar bei responsivem Modus */
+    transition: color 0.3s ease;
 }
 
 .topnav a.active {
     font-weight: bold;
     font-size: 20px;
 }
+
 #myLinks a:hover {
     background-color: #3498DB;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
-
-/* Hauptinhalt */
+/* Main Content */
 main {
     max-width: 1200px;
     margin: 20px auto;
@@ -67,6 +87,13 @@ main {
     background: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
 }
 
 main h2 {
@@ -74,21 +101,24 @@ main h2 {
     border-bottom: 2px solid #3498DB;
     padding-bottom: 5px;
     margin-bottom: 20px;
+    transition: border-color 0.3s ease;
 }
 
 main h3 {
     font-size: 1.5em;
     margin-top: 20px;
     color: #34495E;
+    transition: color 0.3s ease;
 }
 
 main p {
     font-size: 1.1em;
     line-height: 1.8;
     margin-bottom: 20px;
+    transition: color 0.3s ease;
 }
 
-/* Sektion: Was ist der Cyberbereich? */
+/* Section: Cyber Domain */
 .question1flex {
     display: flex;
     flex-direction: column;
@@ -110,6 +140,11 @@ main p {
     height: auto;
     border-radius: 8px;
     margin-bottom: 5px;
+    transition: transform 0.3s ease;
+}
+
+.cyberdomainimg img:hover {
+    transform: scale(1.05);
 }
 
 .cyberdomainimg a {
@@ -117,10 +152,12 @@ main p {
     font-size: 0.9em;
     color: #3498DB;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .cyberdomainimg a:hover {
     text-decoration: underline;
+    color: #2980B9;
 }
 
 /* Responsive Design */
@@ -149,6 +186,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     margin-top: 20px;
+    transition: background-color 0.3s ease;
 }
 
 footer nav {
@@ -162,6 +200,7 @@ footer a {
     color: white;
     text-decoration: none;
     font-size: 14px;
+    transition: color 0.3s ease;
 }
 
 footer a:hover {

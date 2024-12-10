@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="changed the sturctur">
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="updated the links">
+      <change afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cyberattacks/cyberattacks.css" beforeDir="false" afterPath="$PROJECT_DIR$/cyberattacks/cyberattacks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyberattacks/cyberattacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/cyberattacks/cyberattacks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geschichte/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/geschichte/history.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/25231.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/producer.css" beforeDir="false" afterPath="$PROJECT_DIR$/producer/producer.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/enzot/WebstormProjects/projekt_cyberattacks/images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/enzot/WebstormProjects/projekt_cyberattacks/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\images" />
@@ -92,7 +99,7 @@
       <workItem from="1733763841845" duration="28000" />
       <workItem from="1733816478623" duration="774000" />
       <workItem from="1733831041595" duration="826000" />
-      <workItem from="1733834135563" duration="764000" />
+      <workItem from="1733834135563" duration="3194000" />
     </task>
     <task id="LOCAL-00001" summary="Grundstruktur erstes Update">
       <option name="closed" value="true" />
@@ -182,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733831528827</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updated the links">
+      <option name="closed" value="true" />
+      <created>1733835115237</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733835115237</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +215,7 @@
     <MESSAGE value="layout changed" />
     <MESSAGE value="footer css changed" />
     <MESSAGE value="changed the sturctur" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the sturctur" />
+    <MESSAGE value="updated the links" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the links" />
   </component>
 </project>
