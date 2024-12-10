@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="stylesheet.css angepasst">
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="stylesheet.css fertig gemacht">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +95,8 @@
       <workItem from="1733816478623" duration="774000" />
       <workItem from="1733831041595" duration="826000" />
       <workItem from="1733834135563" duration="5584000" />
-      <workItem from="1733839839748" duration="1517000" />
+      <workItem from="1733839839748" duration="2887000" />
+      <workItem from="1733862579734" duration="461000" />
     </task>
     <task id="LOCAL-00001" summary="Grundstruktur erstes Update">
       <option name="closed" value="true" />
@@ -208,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733839807067</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="stylesheet.css fertig gemacht">
+      <option name="closed" value="true" />
+      <created>1733841505947</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733841505947</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +239,7 @@
     <MESSAGE value="updated the links" />
     <MESSAGE value="New files added" />
     <MESSAGE value="stylesheet.css angepasst" />
-    <option name="LAST_COMMIT_MESSAGE" value="stylesheet.css angepasst" />
+    <MESSAGE value="stylesheet.css fertig gemacht" />
+    <option name="LAST_COMMIT_MESSAGE" value="stylesheet.css fertig gemacht" />
   </component>
 </project>
