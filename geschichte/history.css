@@ -187,3 +187,15 @@ footer .p-3 {
     margin-top: 10px;
     font-size: 14px;
 }
+
+
+.copyrightlinks {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+
