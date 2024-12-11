@@ -302,7 +302,7 @@ footer p {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #2C3E50;
+    background-color: #3498DB;
     color: white;
     border-radius: 50%;
     padding: 15px;
@@ -310,11 +310,15 @@ footer p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
-
+footer h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
 /* Chat Window */
 .chat-window {
     position: fixed;
-    bottom: 80px;
+    bottom: 20px;
     right: 20px;
     width: 300px;
     max-height: 400px;
@@ -325,6 +329,15 @@ footer p {
     display: none;
     flex-direction: column;
     z-index: 1000;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.chat-window.open {
+    display: flex;
+    opacity: 1;
+    transform: scale(1);
 }
 
 .chat-header {

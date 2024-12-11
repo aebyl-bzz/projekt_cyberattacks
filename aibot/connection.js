@@ -1,6 +1,6 @@
 async function sendChat(userInput) {
     try {
-        const apiKey = "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"; // Replace with your actual API key
+        const apiKey = "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";
         const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
             method: "POST",
             headers: {

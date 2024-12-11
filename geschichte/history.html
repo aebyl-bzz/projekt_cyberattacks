@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Geschichte von Cyberattacken im Ukraine-Krieg</title>
   <link rel="stylesheet" href="history.css">
   <script src="history.js" type="text/javascript" defer></script>
-
 </head>
 <body>
 <header>
@@ -24,59 +24,98 @@
 </header>
 
 <main>
-  <nav class="generalcont">
+  <section class="timeline-container">
     <h2>Geschichte von Cyberattacken im Ukraine-Krieg</h2>
-    <nav class="timelineflex">
-      <nav class="timelinecontent">
+
+    <div class="timeline">
+      <div class="timeline-event" id="event1">
         <h3>2015: BlackEnergy Malware</h3>
-        <p>Russische Hacker führten mithilfe der Malware BlackEnergy einen Angriff auf das Stromnetz der Westukraine durch, wodurch zehntausende Menschen für mehrere Stunden ohne Strom waren.</p>
+        <p class="event-detail">Russische Hacker führten mithilfe der Malware BlackEnergy einen Angriff auf das Stromnetz der Westukraine durch, wodurch zehntausende Menschen für mehrere Stunden ohne Strom waren.</p>
+      </div>
 
+      <div class="timeline-event" id="event2">
         <h3>2016: Industroyer/CrashOverride</h3>
-        <p>Ein hochentwickelter Angriff auf das ukrainische Stromnetz, bei dem spezialisierte Malware eingesetzt wurde, die speziell für industrielle Steuerungssysteme konzipiert war, führte zu einer großflächigen Stromunterbrechung.</p>
+        <p class="event-detail">Ein hochentwickelter Angriff auf das ukrainische Stromnetz, bei dem spezialisierte Malware eingesetzt wurde, die speziell für industrielle Steuerungssysteme konzipiert war, führte zu einer großflächigen Stromunterbrechung.</p>
+      </div>
 
+      <div class="timeline-event" id="event3">
         <h3>2017: NotPetya</h3>
-        <p>Die Ukraine wurde Ziel eines zerstörerischen Cyberangriffs, der durch infizierte Steuerungssoftware verbreitet wurde. Die Malware verschlüsselte Daten und verursachte massive Ausfälle in Unternehmen weltweit.</p>
+        <p class="event-detail">Die Ukraine wurde Ziel eines zerstörerischen Cyberangriffs, der durch infizierte Steuerungssoftware verbreitet wurde. Die Malware verschlüsselte Daten und verursachte massive Ausfälle in Unternehmen weltweit.</p>
+      </div>
 
+      <div class="timeline-event" id="event4">
         <h3>2022: Industroyer2</h3>
-        <p>Russische Hacker griffen erneut das ukrainische Stromnetz an, indem sie eine weiterentwickelte Version der Industroyer-Malware einsetzten. Dank rechtzeitiger Abwehrmaßnahmen konnten größere Schäden verhindert werden.</p>
+        <p class="event-detail">Russische Hacker griffen erneut das ukrainische Stromnetz an, indem sie eine weiterentwickelte Version der Industroyer-Malware einsetzten. Dank rechtzeitiger Abwehrmaßnahmen konnten größere Schäden verhindert werden.</p>
+      </div>
 
+      <div class="timeline-event" id="event5">
         <h3>2023: Kombinierte Cyber- und Raketenangriffe</h3>
-        <p>Sandworm, eine Hackergruppe der russischen GRU, führte einen kombinierten Angriff durch, bei dem Cyberangriffe auf das Stromnetz mit physischen Raketenangriffen auf dieselbe Region koordiniert wurden.</p>
-      </nav>
+        <p class="event-detail">Sandworm, eine Hackergruppe der russischen GRU, führte einen kombinierten Angriff durch, bei dem Cyberangriffe auf das Stromnetz mit physischen Raketenangriffen auf dieselbe Region koordiniert wurden.</p>
+      </div>
+
+      <!-- Neue Ereignisse -->
+      <div class="timeline-event" id="event6">
+        <h3>2023: Cyberangriffe auf Wasserversorgung</h3>
+        <p class="event-detail">Cyberkriminelle und staatlich unterstützte Hackergruppen zielten auf die Wasserversorgungseinrichtungen der Ukraine ab. Dies führte zu temporären Störungen in der Wasserversorgung in mehreren Städten, was die Sicherheitslage weiter verschärfte.</p>
+      </div>
+
+      <div class="timeline-event" id="event7">
+        <h3>2024: Erweiterte Angriffe auf Kommunikationsinfrastrukturen</h3>
+        <p class="event-detail">Angriffe auf Kommunikationssysteme störten wichtige Infrastruktur wie Telefonnetze und Internetverbindungen, was sowohl die militärische Koordination als auch den Alltag der Zivilbevölkerung beeinträchtigte.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="impact">
+    <h2>Auswirkungen</h2>
+    <nav class="impact-group">
+      <h3>Störungen der kritischen Infrastruktur</h3>
+      <p>Cyberangriffe führten zu erheblichen Beeinträchtigungen in Strom- und Versorgungsnetzen, was sowohl wirtschaftliche Schäden als auch Alltagsprobleme für die Bevölkerung mit sich brachte.</p>
     </nav>
-    <section id="impact">
-      <h2>Auswirkungen</h2>
+    <nav class="impact-group">
+      <h3>Psychologische Belastung</h3>
+      <p>Die Kombination aus Cyber- und physischen Angriffen erzeugte Angst und Unsicherheit in der Zivilbevölkerung, was langfristige psychologische Folgen hatte.</p>
+    </nav>
+    <nav class="impact-group">
+      <h3>Globale wirtschaftliche Schäden</h3>
+      <p>Angriffe wie NotPetya hatten weltweite Auswirkungen und verursachten Milliardenverluste in verschiedenen Wirtschaftszweigen, auch außerhalb der Ukraine.</p>
+    </nav>
+    <!-- Neue Auswirkungen -->
+    <nav class="impact-group">
+      <h3>Stärkung der Cyberabwehr</h3>
+      <p>Die Ukraine hat aufgrund der wiederholten Angriffe ihre Cyberabwehrstrategien verbessert und internationale Partnerschaften zur Bekämpfung von Cyberkriminalität und Cyberkrieg geschlossen.</p>
+    </nav>
+    <nav class="impact-group">
+      <h3>Wachsende internationale Zusammenarbeit</h3>
+      <p>Die Bedrohung durch Cyberangriffe hat eine verstärkte Zusammenarbeit zwischen NATO, der EU und anderen internationalen Partnern zur Entwicklung und Verbesserung von Schutzmaßnahmen gegen Cyberangriffe gefördert.</p>
+    </nav>
+  </section>
 
-        <nav class="impact-group">
-          <h3>Störungen der kritischen Infrastruktur</h3>
-          <p>Cyberangriffe führten zu erheblichen Beeinträchtigungen in Strom- und Versorgungsnetzen, was sowohl wirtschaftliche Schäden als auch Alltagsprobleme für die Bevölkerung mit sich brachte.</p>
-        </nav>
-        <nav class="impact-group">
-          <h3>Psychologische Belastung</h3>
-          <p>Die Kombination aus Cyber- und physischen Angriffen erzeugte Angst und Unsicherheit in der Zivilbevölkerung, was langfristige psychologische Folgen hatte.</p>
-        </nav>
-        <nav class="impact-group">
-          <h3>Globale wirtschaftliche Schäden</h3>
-          <p>Angriffe wie NotPetya hatten weltweite Auswirkungen und verursachten Milliardenverluste in verschiedenen Wirtschaftszweigen, auch außerhalb der Ukraine.</p>
-        </nav>
-
-    </section>
-  </nav>
+  <!-- Neue Sektion: Gegenmaßnahmen und Verteidigung -->
+  <section id="countermeasures">
+    <h2>Gegenmaßnahmen und Verteidigung</h2>
+    <p>Die Ukraine hat verschiedene Maßnahmen ergriffen, um sich gegen die zunehmenden Cyberangriffe zu wappnen:</p>
+    <ul>
+      <li><strong>Verbesserung der Cyberabwehr:</strong> Die Ukraine hat ihre Fähigkeiten zur Abwehr von Cyberangriffen massiv ausgebaut, darunter die Implementierung fortschrittlicher Firewalls und Anti-Malware-Systeme.</li>
+      <li><strong>Internationale Zusammenarbeit:</strong> Zusammenarbeit mit westlichen Staaten, internationalen Organisationen und privaten Sicherheitsunternehmen, um die Verteidigung gegen Cyberangriffe zu stärken.</li>
+      <li><strong>Schulung und Sensibilisierung:</strong> Schulungen für Mitarbeiter der kritischen Infrastruktur sowie Aufklärung der Bevölkerung, um Phishing-Angriffe und andere Cyberbedrohungen zu erkennen und zu verhindern.</li>
+      <li><strong>Notfallpläne und Backup-Systeme:</strong> Die Entwicklung von Notfallplänen und die Einrichtung redundanter Systeme, um die Auswirkungen von Cyberangriffen auf die kritische Infrastruktur zu minimieren.</li>
+    </ul>
+  </section>
 </main>
-</body>
+
 <footer>
-
-  <nav class="footercont" >
-
-    <a href="https://github.com/aebyl-bzz" ><img src="../images/Github.png" class="footerimg" style="width: 20px; height: 20px;"> Lucius Aeby</a>
-    <a href="https://github.com/im23b-terenzianie/"  ><img src="../images/Github.png" class="footerimg" style="width: 20px; height: 20px;"> Enzo Terenzianie</a>
-    <a href="https://github.com/im23-pilzm" ><img src="../images/Github.png" class="footerimg" style="width: 20px; height: 20px;"> Maximillian Pilz</a>
+  <nav class="footercont">
+    <a href="https://github.com/aebyl-bzz"><img src="../images/Github.png" class="footerimg" style="width: 20px; height: 20px;"> Lucius Aeby</a>
+    <a href="https://github.com/im23b-terenzianie/"><img src="../images/Github.png" class="footerimg" style="width: 20px; height: 20px;"> Enzo Terenzianie</a>
+    <a href="https://github.com/im23-pilzm"><img src="../images/Github.png" class="footerimg" style="width: 20px; height: 20px;"> Maximillian Pilz</a>
   </nav>
 
   <div class="copyright">
     <p class="copyrightlinks">© 2024 Copyright: </p>
-    <a class="copyrightlinks" classhref="https://CyberattacksOnUkraine.com/"> CyberattacksOnUkraine.com</a>
+    <a class="copyrightlinks" href="https://CyberattacksOnUkraine.com/"> CyberattacksOnUkraine.com</a>
   </div>
-
 </footer>
+
+</body>
 </html>
