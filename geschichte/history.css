@@ -1,40 +1,49 @@
-/* Allgemeine Schriftart und Grundlayout */
-body, h1, h2, h3, p, ul, li, a {
-    font-family: Arial, Helvetica, sans-serif; /* Einheitliche Schrift */
-    color: #2C3E50; /* Standardfarbe für Text */
+/* General Styles */
+body, h1, h2, h3, p, a {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #2C3E50;
 }
 
 body {
-    background-color: #F8F9FA; /* Dezenter Hintergrund */
+    background-color: #F8F9FA;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 header {
-    background-color: #2C3E50; /* Dunkelblauer Hintergrund */
+    background-color: #2C3E50;
     color: white;
     padding: 15px 0;
     text-align: center;
+    transition: background-color 0.3s ease;
 }
 
-header .topnav a.active {
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-/* Navigation Styles */
+/* Navigation Styling */
 .topnav {
     background-color: #2C3E50;
     overflow: hidden;
-    position: relative;
+    position: fixed; /* Fix the topnav at the top */
+    top: 0; /* Position it at the top of the page */
+    width: 100%; /* Make it span the full width of the page */
+    z-index: 1000; /* Ensure it stays above other content */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .topnav #myLinks {
-    display: none; /* Standardmäßig Navigation versteckt */
-    width: 100%;
-    background-color: #2C3E50;
-    padding-top: 50px; /* Platz für das Hamburger-Menü */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.topnav.responsive #myLinks {
+    max-height: 500px;
 }
 
 .topnav a {
@@ -43,34 +52,47 @@ header .topnav a.active {
     text-decoration: none;
     font-size: 16px;
     display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .topnav a.icon {
-    display: block; /* Hamburger-Symbol */
+    display: block;
     position: absolute;
     right: 0;
     top: 0;
     padding: 14px 20px;
     font-size: 24px;
     cursor: pointer;
+    transition: color 0.3s ease;
 }
 
-.topnav.responsive #myLinks {
-    display: block; /* Navigation sichtbar im responsive Modus */
+.topnav a.active {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #myLinks a:hover {
     background-color: #3498DB;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
-/* Main Content Styles */
+/* Main Content */
 main {
-    padding: 20px;
     max-width: 1200px;
     margin: 20px auto;
-    background: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
 }
 
 main h2 {
@@ -78,89 +100,87 @@ main h2 {
     border-bottom: 2px solid #3498DB;
     padding-bottom: 5px;
     margin-bottom: 20px;
+    transition: border-color 0.3s ease;
 }
 
 main h3 {
     font-size: 1.5em;
     margin-top: 20px;
     color: #34495E;
+    transition: color 0.3s ease;
 }
 
-p {
+main p {
     font-size: 1.1em;
     line-height: 1.8;
     margin-bottom: 20px;
+    transition: color 0.3s ease;
 }
 
-/* Timeline Section */
-.timelineflex {
+/* Timeline Styles */
+.timeline-container {
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    animation: slideIn 1s ease-in-out;
+}
+
+.timeline {
+    position: relative;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    padding: 20px;
+    border-left: 3px solid #3498DB;
+    transition: border-left-color 0.3s ease;
 }
 
-.timelinecontent {
-    margin-bottom: 30px;
-}
-
-/* Impact Section Styles */
-#impact {
-    margin-top: 40px;
-}
-
-.impact-group {
-    margin-bottom: 20px;
-    background: #F4F6F8;
+.timeline-event {
+    position: relative;
+    margin-left: 20px;
     padding: 15px;
+    background: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Leichte Schatten für Gruppen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
-.impact-group h3 {
-    font-size: 1.4em;
-    margin-bottom: 10px;
-    color: #2C3E50;
+.timeline-event:hover {
+    transform: translateX(10px);
 }
 
-.impact-group p {
-    margin: 0;
-    font-size: 1.1em;
+.timeline-event::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #3498DB;
 }
 
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    .topnav a.icon {
-        display: block;
-    }
-
-    .topnav.responsive #myLinks {
-        display: block;
-    }
-
-    main {
-        padding: 15px;
-    }
-
-    h2 {
-        font-size: 1.8em;
-    }
-
-    h3 {
-        font-size: 1.3em;
-    }
-
-    p {
-        font-size: 1em;
-    }
+.event-detail {
+    display: none;
+    margin-top: 10px;
+    font-size: 1em;
 }
 
-/* Footer Styles */
+.timeline-event.active .event-detail {
+    display: block;
+}
+
+/* Footer Styling */
 footer {
     background-color: #2C3E50;
     color: white;
     text-align: center;
     padding: 20px 0;
     margin-top: 20px;
+    transition: background-color 0.3s ease;
 }
 
 footer nav {
@@ -174,28 +194,103 @@ footer a {
     color: white;
     text-decoration: none;
     font-size: 14px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
+    transition: color 0.3s ease;
 }
 
 footer a:hover {
     color: #3498DB;
 }
 
-footer .p-3 {
-    margin-top: 10px;
+footer p {
     font-size: 14px;
+    margin-top: 10px;
 }
 
+/* Chat Icon */
+.chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498DB;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
 
-.copyrightlinks {
-    font-size: 14px;
-    margin-top: 10px;
-    color: #FFFFFF;
-    align-items: center;
+/* Chat Window */
+.chat-window {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    max-height: 400px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    z-index: 1000;
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.chat-window.open {
     display: flex;
-    justify-content: center;
-    margin: 2px;
+    opacity: 1;
+    transform: scale(1);
 }
 
+.chat-header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.chat-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.chat-header h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #FFFFFF;
+}
+
+.chat-body textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.chat-body button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: #2C3E50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.chat-body .response {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    height: 150px; /* Set a fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
