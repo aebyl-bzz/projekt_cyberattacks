@@ -183,23 +183,19 @@ footer {
     background-color: #2C3E50;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     margin-top: 20px;
-    transition: background-color 0.3s ease;
 }
 
 footer nav {
     margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
 }
 
 footer a {
     color: white;
     text-decoration: none;
+    margin: 0 10px;
     font-size: 14px;
-    transition: color 0.3s ease;
 }
 
 footer a:hover {
@@ -208,15 +204,7 @@ footer a:hover {
 
 footer p {
     font-size: 14px;
-    margin-top: 10px;
-}
-/* Footer Styling */
-footer {
-    background-color: #2C3E50;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    transition: background-color 0.3s ease;
+    margin: 0;
 }
 
 .footer-content {
@@ -236,6 +224,7 @@ footer {
 .footer-section h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    color: white;
 }
 
 .footer-section p, .footer-section ul {
@@ -266,6 +255,7 @@ footer {
     margin-top: 20px;
     font-size: 0.9em;
 }
+
 footer nav {
     margin-bottom: 10px;
     display: flex;
@@ -292,11 +282,13 @@ footer a img {
 footer a:hover {
     color: #3498DB;
 }
+
 footer p {
     font-size: 14px;
     margin-top: 10px;
-    color : white;
+    color: white;
 }
+
 /* Chat Icon */
 .chat-icon {
     position: fixed;
@@ -310,11 +302,7 @@ footer p {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
-footer h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: white;
-}
+
 /* Chat Window */
 .chat-window {
     position: fixed;
@@ -357,6 +345,7 @@ footer h2 {
     flex-direction: column;
     gap: 10px;
 }
+
 .chat-header h2 {
     margin: 0;
     font-size: 1.2em;
@@ -388,4 +377,11 @@ footer h2 {
     border-radius: 4px;
     height: 150px; /* Set a fixed height */
     overflow-y: auto; /* Enable vertical scrolling */
+}
+
+footer h2 {
+    font-size: 1.8em;
+    margin-top: 15px;
+    border-bottom: 2px solid #3498DB; /* Akzentfarbe */
+    padding-bottom: 5px;
 }
