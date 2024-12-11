@@ -1,0 +1,165 @@
+/* Allgemeine Schriftart */
+body, h1, h2, h3, p, ul, li, a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2C3E50;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F8F9FA;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Navigation Styling */
+.topnav {
+    background-color: #2C3E50;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.topnav #myLinks {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.topnav.responsive #myLinks {
+    max-height: 500px;
+}
+
+.topnav a {
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 14px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.topnav a.active {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#myLinks a:hover {
+    background-color: #3498DB;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* Quiz Styles */
+h1 {
+    text-align: center;
+    margin: 80px 0 20px;
+    color: #34495E;
+}
+
+.question {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.options {
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Abstand zwischen den Option-Items */
+}
+
+.option-item {
+    display: inline-flex; /* Elemente nebeneinander anordnen */
+    align-items: center; /* Radiobuttons und Text vertikal zentrieren */
+    gap: 10px; /* Abstand zwischen Radiobutton und Text */
+}
+
+
+.option-item input[type="radio"] {
+    margin-right: 10px;
+}
+
+.submit {
+    display: block;
+    max-width: 200px;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+    background-color: #2980B9;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: #3498DB;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
