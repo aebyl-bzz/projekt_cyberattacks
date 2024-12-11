@@ -2,9 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vergleich der Akteure</title>
     <link rel="stylesheet" href="vergleichakteure.css">
     <script src="vergleichakteure.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .layer-buttons, .filter-container {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .layer-buttons button, .filter-container button {
+            padding: 10px;
+            font-size: 14px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #f4f4f4;
+        }
+
+        .layer-buttons button:hover, .filter-container button:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -29,6 +59,21 @@
         <p onclick="openModal('../images/Vergleich-Ukraine.png')">Ukraine</p>
         <p onclick="openModal('../images/Vergleich-International.png')">International</p>
     </div>
+
+    <!-- Interaktive Karte -->
+    <h2>Interaktive Karte: Cyberangriffe</h2>
+    <p>Diese Karte zeigt wichtige Orte, die mit Cyberangriffen in Verbindung stehen, sowie die betroffenen Regionen.</p>
+    <div id="map"></div>
+    <div style="text-align: center; margin-top: 10px;">
+        <button id="streetView" class="button">Strassenansicht</button>
+        <button id="satelliteView" class="button">Satellitenansicht</button>
+    </div>
+
+    <div style="text-align: center; margin-top: 10px;">
+        <button id="filterUkraine" class="button">Ukraine</button>
+        <button id="filterRussia" class="button">Russland</button>
+        <button id="filterAll" class="button">Alle</button>
+    </div>
 </main>
 
 <!-- Modal Structure -->
@@ -46,5 +91,129 @@
     </nav>
     <p>© 2024 Cyberattacks on Ukraine</p>
 </footer>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+    // Karte initialisieren
+    const map = L.map('map').setView([48.8566, 2.3522], 4); // Zentrum der Karte (Paris als Beispiel)
+
+    // Layer: Straßenansicht
+    const streetLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Layer: Satellitenansicht
+    const satelliteLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap contributors'
+    });
+
+    // Marker hinzufügen (Beispieldaten)
+    const locations = [
+        { lat: 50.4501, lng: 30.5234, title: 'Kyiv, Ukraine: Ziel von DDoS-Angriffen', category: 'Ukraine', details: 'Wichtiger Ort für Cyberangriffe auf staatliche Einrichtungen.' },
+        { lat: 55.7558, lng: 37.6173, title: 'Moskau, Russland: Herkunft vieler Angriffe', category: 'Russia', details: 'Zahlreiche Angriffe werden hier koordiniert.' },
+        { lat: 40.7128, lng: -74.0060, title: 'New York, USA: Koordination internationaler Reaktionen', category: 'International', details: 'Hauptquartiere internationaler Organisationen.' },
+        { lat: 48.8566, lng: 2.3522, title: 'Paris, Frankreich: Diplomatische Verhandlungen', category: 'International', details: 'Treffpunkt für Verhandlungen zwischen Ländern.' },
+        { lat: 49.9935, lng: 36.2304, title: 'Charkiw, Ukraine: Ziel von Cyberangriffen', category: 'Ukraine', details: 'Eine der am stärksten betroffenen Städte in der Ukraine.' },
+        { lat: 56.3269, lng: 44.0059, title: 'Nischni Nowgorod, Russland: Ursprung von Malware', category: 'Russia', details: 'Bekannt für die Entwicklung von Schadsoftware.' },
+        { lat: 55.7981, lng: 37.5986, title: 'Kaspersky Lab, Russland: Cybersecurity-Unternehmen', category: 'Russia', details: 'Führendes Cybersecurity-Unternehmen.' },
+        { lat: 37.4419, lng: -122.1430, title: 'Palo Alto Networks, USA: Sitz in Palo Alto', category: 'International', details: 'Führender Anbieter von Sicherheitslösungen.' },
+        { lat: 38.9445, lng: -77.4558, title: 'CrowdStrike, USA: Sitz in Virginia', category: 'International', details: 'Bedeutendes Cybersecurity-Unternehmen.' },
+        { lat: 37.3947, lng: -122.1500, title: 'FireEye, USA: Sitz in Kalifornien', category: 'International', details: 'Experten für Bedrohungsanalysen.' },
+        { lat: 48.1486, lng: 17.1077, title: 'ESET, Slowakei: Cybersecurity-Unternehmen', category: 'International', details: 'Europäisches Unternehmen für IT-Sicherheit.' }
+    ];
+    const categoryIcons = {
+        'Ukraine': L.icon({
+            iconUrl: '../images/gps_10577670.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34]
+        }),
+        'Russia': L.icon({
+            iconUrl: '../images/gps_10577745.png', // Alternativer roter Marker
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34]
+        }),
+        'International': L.icon({
+            iconUrl: '../images/gps_10577677.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34]
+        })
+    };
+    const categoryColors = {
+        'Ukraine': 'blue',
+        'Russia': 'red',
+        'International': 'green'
+    };
+
+
+    const markers = [];
+
+    locations.forEach(location => {
+        const marker = L.marker([location.lat, location.lng], {
+            icon: categoryIcons[location.category]
+        }).addTo(map);
+
+        marker.bindPopup(`<strong>${location.title}</strong><br>${location.details}`);
+
+        markers.push({ marker, category: location.category });
+    });
+
+    // Legende hinzufügen
+    const legend = L.control({ position: 'topright' });
+    legend.onAdd = function () {
+        const div = L.DomUtil.create('div', 'legend');
+        div.style.backgroundColor = 'white';
+        div.style.padding = '10px';
+        div.style.border = '1px solid #ccc';
+        div.style.borderRadius = '4px';
+        div.style.width = '150px'; // Optional: Einheitliche Breite festlegen
+        div.innerHTML = `
+        <h4 style="margin: 0; margin-bottom: 10px;">Kategorien</h4>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+    `;
+        for (const [category, color] of Object.entries(categoryColors)) {
+            div.innerHTML += `
+            <li style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="background: ${color}; width: 12px; height: 12px; display: inline-block; border-radius: 50%; margin-right: 8px;"></span>
+                <span>${category}</span>
+            </li>
+        `;
+        }
+        div.innerHTML += '</ul>';
+        return div;
+    };
+
+    legend.addTo(map);
+
+    // Layer-Wechsel-Buttons
+    document.getElementById('satelliteView').addEventListener('click', () => {
+        map.removeLayer(streetLayer);
+        map.addLayer(satelliteLayer);
+    });
+
+    document.getElementById('streetView').addEventListener('click', () => {
+        map.removeLayer(satelliteLayer);
+        map.addLayer(streetLayer);
+    });
+    // Filter-Buttons
+    function filterMarkers(category) {
+        markers.forEach(({ marker, category: markerCategory }) => {
+            if (category === 'All' || markerCategory === category) {
+                marker.addTo(map);
+            } else {
+                map.removeLayer(marker);
+            }
+        });
+    }
+
+    document.getElementById('filterUkraine').addEventListener('click', () => filterMarkers('Ukraine'));
+    document.getElementById('filterRussia').addEventListener('click', () => filterMarkers('Russia'));
+    document.getElementById('filterAll').addEventListener('click', () => filterMarkers('All'));
+</script>
 </body>
 </html>
