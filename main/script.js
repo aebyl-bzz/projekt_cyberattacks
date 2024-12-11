@@ -8,10 +8,17 @@ function burgermenue() {
 }
 function toggleChat() {
     const chatWindow = document.getElementById("chatWindow");
-    chatWindow.style.display = chatWindow.style.display === "none" || chatWindow.style.display === "" ? "flex" : "none";
-}
-function clearchat() {
-    document.getElementById("userInput").value = "";
+    if (chatWindow.classList.contains("open")) {
+        chatWindow.classList.remove("open");
+        setTimeout(() => {
+            chatWindow.style.display = "none";
+        }, 300); // Match the transition duration
+    } else {
+        chatWindow.style.display = "flex";
+        setTimeout(() => {
+            chatWindow.classList.add("open");
+        }, 10); // Slight delay to trigger the transition
+    }
 }
 
 // Event listener for button click
