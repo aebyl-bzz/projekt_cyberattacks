@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Vergleich der Akteure</title>
+    <link rel="stylesheet" href="vergleichakteure.css">
+    <script src="vergleichakteure.js" type="text/javascript" defer></script>
 </head>
 <body>
+<header>
+    <div class="topnav" id="myTopnav">
+        <a href="../main/main.html" class="active">Logo</a>
+        <div id="myLinks">
+            <a href="../main/main.html">Start</a>
+            <a href="../geschichte/history.html">Geschichte</a>
+            <a href="../cyberattacks/cyberattacks.html">Cyberattacken</a>
+            <a href="../producer/producer.html">Produzent</a>
+            <a href="../benutzer/benutzer.html">Akteure</a>
+            <a href="../vergleichakteuren/vergleichakteure.html">Vergleich der Akteure</a>
+            <a href="../about/about.html">Quellen</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="burgermenue()">&#9776;</a>
+    </div>
+</header>
+<main>
+    <h1>Vergleich der Akteure: Russland und Ukraine</h1>
+    <div class="text-container">
+        <p onclick="openModal('../images/Vergleich-Russland.png')">Russland</p>
+        <p onclick="openModal('../images/Vergleich-Ukraine.png')">Ukraine</p>
+        <p onclick="openModal('../images/Vergleich-International.png')">International</p>
+    </div>
+</main>
 
+<!-- Modal Structure -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImg" src="" alt="Modal Image">
+    </div>
+</div>
+<footer>
+    <nav class="footercont">
+        <a href="https://github.com/aebyl-bzz" target="_blank">GitHub Lucius Aeby</a>
+        <a href="https://github.com/im23b-terenzianie/" target="_blank">GitHub Enzo Terenzianie</a>
+        <a href="https://github.com/im23-pilzm" target="_blank">GitHub Maximillian Pilz</a>
+    </nav>
+    <p>© 2024 Cyberattacks on Ukraine</p>
+</footer>
 </body>
 </html>
