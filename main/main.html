@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Cyberattacks on Ukraine</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <script src="../aibot/connection.js" defer></script>
 </head>
 <body>
 <header>
@@ -53,6 +54,24 @@
             zu Stromausfällen oder anderen kritischen Infrastrukturen. Auch kann es zu finanziellen Schäden kommen, wenn
             zum Beispiel ein Unternehmen angegriffen wird. </p>
     </nav>
+    <!-- Chat Icon -->
+    <div id="chatIcon" class="chat-icon" onclick="toggleChat()">
+        💬
+    </div>
+
+    <!-- Chat Window -->
+    <div id="chatWindow" class="chat-window">
+        <div class="chat-header">
+            <h2>AI Chat</h2>
+            <button onclick="toggleChat()">✖</button>
+        </div>
+        <div class="chat-body">
+            <label for="userInput">Deine Frage:</label>
+            <input type="text" id="userInput" placeholder="Schreibe deine Nachricht hier..."/>
+            <button id="submitButton">Send</button>
+            <div id="responseOutput" class="response">Die Antwort wird hier erscheinen...</div>
+        </div>
+    </div>
 </main>
 </body>
 <footer>
