@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="New files added">
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="updated the links">
+      <change afterPath="$PROJECT_DIR$/images/Ein einfaches schwarzes und weißes Icon zu Cyberattacken auf kritische Infrastrukturen im Stil des gegebenen Bildes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Wiper_Malware.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/database.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ddos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phishing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/propaganda.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberattacks/cyberattacks.css" beforeDir="false" afterPath="$PROJECT_DIR$/cyberattacks/cyberattacks.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberattacks/cyberattacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/cyberattacks/cyberattacks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberattacks/cyberattacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/cyberattacks/cyberattacks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +24,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
@@ -36,21 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/enzot/WebstormProjects/projekt_cyberattacks/images",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/enzot/WebstormProjects/projekt_cyberattacks/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\images" />
@@ -66,7 +72,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.426" />
       </set>
     </attachedChunks>
   </component>
@@ -94,7 +100,7 @@
       <workItem from="1733763841845" duration="28000" />
       <workItem from="1733816478623" duration="774000" />
       <workItem from="1733831041595" duration="826000" />
-      <workItem from="1733834135563" duration="5563000" />
+      <workItem from="1733834135563" duration="3194000" />
     </task>
     <task id="LOCAL-00001" summary="Grundstruktur erstes Update">
       <option name="closed" value="true" />
@@ -192,19 +198,22 @@
       <option name="project" value="LOCAL" />
       <updated>1733835115237</updated>
     </task>
-    <task id="LOCAL-00013" summary="New files added">
-      <option name="closed" value="true" />
-      <created>1733837400065</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1733837400065</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Grundstruktur erstes Update" />
@@ -219,7 +228,6 @@
     <MESSAGE value="footer css changed" />
     <MESSAGE value="changed the sturctur" />
     <MESSAGE value="updated the links" />
-    <MESSAGE value="New files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="New files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the links" />
   </component>
 </project>
