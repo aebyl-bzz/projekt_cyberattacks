@@ -1,8 +1,8 @@
 function burgermenue() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
+    var topnav = document.getElementById("myTopnav");
+    if (topnav.className === "topnav") {
+        topnav.className += " responsive";
     } else {
-        x.style.display = "block";
+        topnav.className = "topnav";
     }
 }

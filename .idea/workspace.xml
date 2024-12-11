@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="Prototyp von footer in main erstellt">
-      <change afterPath="$PROJECT_DIR$/aibot/aichat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aibot/aichat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aibot/connection.js" afterDir="false" />
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="stylesheet.css fertig gemacht">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -52,7 +48,6 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -101,9 +96,7 @@
       <workItem from="1733831041595" duration="826000" />
       <workItem from="1733834135563" duration="5584000" />
       <workItem from="1733839839748" duration="2887000" />
-      <workItem from="1733862579734" duration="541000" />
-      <workItem from="1733902581013" duration="4202000" />
-      <workItem from="1733907211789" duration="645000" />
+      <workItem from="1733862579734" duration="461000" />
     </task>
     <task id="LOCAL-00001" summary="Grundstruktur erstes Update">
       <option name="closed" value="true" />
@@ -225,15 +218,7 @@
       <option name="project" value="LOCAL" />
       <updated>1733841505947</updated>
     </task>
-    <task id="LOCAL-00016" summary="Prototyp von footer in main erstellt">
-      <option name="closed" value="true" />
-      <created>1733863123564</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1733863123564</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +240,6 @@
     <MESSAGE value="New files added" />
     <MESSAGE value="stylesheet.css angepasst" />
     <MESSAGE value="stylesheet.css fertig gemacht" />
-    <MESSAGE value="Prototyp von footer in main erstellt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prototyp von footer in main erstellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="stylesheet.css fertig gemacht" />
   </component>
 </project>
