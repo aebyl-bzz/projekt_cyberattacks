@@ -120,6 +120,11 @@ main p {
 }
 
 /* Table Styling */
+.table-container {
+    margin: 20px 0;
+    overflow-x: auto; /* Make table scrollable horizontally */
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -135,10 +140,6 @@ table th, table td {
 table th {
     background-color: #f4f4f4;
     font-weight: bold;
-}
-
-.table-container {
-    margin: 20px 0;
 }
 
 /* Map and Buttons */

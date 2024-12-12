@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="Index now under root">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" afterDir="false" />
-    </list>
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="vergleichakteure gekürzt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,7 +257,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734035920333</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="vergleichakteure nun handy freundlicher">
+      <option name="closed" value="true" />
+      <created>1734037941340</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1734037941340</updated>
+    </task>
+    <task id="LOCAL-00022" summary="vergleichakteure gekürzt">
+      <option name="closed" value="true" />
+      <created>1734038174084</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1734038174084</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +300,8 @@
     <MESSAGE value="Produzenten erweitert" />
     <MESSAGE value="footer changed" />
     <MESSAGE value="Index now under root" />
-    <option name="LAST_COMMIT_MESSAGE" value="Index now under root" />
+    <MESSAGE value="vergleichakteure nun handy freundlicher" />
+    <MESSAGE value="vergleichakteure gekürzt" />
+    <option name="LAST_COMMIT_MESSAGE" value="vergleichakteure gekürzt" />
   </component>
 </project>
