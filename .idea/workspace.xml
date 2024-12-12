@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="footer changed">
-      <change afterPath="$PROJECT_DIR$/images/gps_10577670.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gps_10577677.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gps_10577745.png" afterDir="false" />
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="Buttons geändert">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.js" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +97,8 @@
       <workItem from="1733839839748" duration="2887000" />
       <workItem from="1733862579734" duration="461000" />
       <workItem from="1733917057473" duration="9554000" />
-      <workItem from="1733944563416" duration="5991000" />
+      <workItem from="1733944563416" duration="6110000" />
+      <workItem from="1733988741466" duration="395000" />
     </task>
     <task id="LOCAL-00001" summary="Grundstruktur erstes Update">
       <option name="closed" value="true" />
@@ -258,7 +252,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733929575333</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="karte hinzugefügt">
+      <option name="closed" value="true" />
+      <created>1733950634423</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733950634423</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Buttons geändert">
+      <option name="closed" value="true" />
+      <created>1733950727833</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1733950727833</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +294,8 @@
     <MESSAGE value="erweiterung der history seite und zeitstrahl hinzugefügt" />
     <MESSAGE value="Produzenten erweitert" />
     <MESSAGE value="footer changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer changed" />
+    <MESSAGE value="karte hinzugefügt" />
+    <MESSAGE value="Buttons geändert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Buttons geändert" />
   </component>
 </project>
