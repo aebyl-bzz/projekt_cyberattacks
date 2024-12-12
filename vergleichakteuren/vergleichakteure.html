@@ -34,6 +34,27 @@
         .layer-buttons button:hover, .filter-container button:hover {
             background-color: #e0e0e0;
         }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        table th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+
+        .table-container {
+            margin: 20px 0;
+        }
     </style>
 </head>
 <body>
@@ -47,17 +68,142 @@
             <a href="../producer/producer.html">Produzent</a>
             <a href="../benutzer/benutzer.html">Akteure</a>
             <a href="../vergleichakteuren/vergleichakteure.html">Vergleich der Akteure</a>
-            <a href="../about/about.html">Quellen</a>
+            <a href="../Quiz/quiz.html">Quiz</a>
         </div>
         <a href="javascript:void(0);" class="icon" onclick="burgermenue()">&#9776;</a>
     </div>
 </header>
 <main>
-    <h1>Vergleich der Akteure: Russland und Ukraine</h1>
-    <div class="text-container">
-        <p onclick="openModal('../images/Vergleich-Russland.png')">Russland</p>
-        <p onclick="openModal('../images/Vergleich-Ukraine.png')">Ukraine</p>
-        <p onclick="openModal('../images/Vergleich-International.png')">International</p>
+
+    <!-- Tabellen mit Vergleich -->
+    <div class="table-container">
+        <h2>Vergleich der Akteure: Ukraine</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Akteure</th>
+                <th>Angriff</th>
+                <th>Verteidigung</th>
+                <th>Lohn</th>
+                <th>Ausbildung</th>
+                <th>Motivation</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>SBU</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Schutz des Landes und seiner Bürger</td>
+            </tr>
+            <tr>
+                <td>Ukrainische Streitkräfte</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Verteidigung der nationalen Souveränität</td>
+            </tr>
+            <tr>
+                <td>Freiwillige Gruppen</td>
+                <td>Ja</td>
+                <td>Nein</td>
+                <td>Nein</td>
+                <td>Nein</td>
+                <td>Unterstützung der nationalen Sache und Freiheit</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <h2>Vergleich der Akteure: Russland</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Akteure</th>
+                <th>Angriff</th>
+                <th>Verteidigung</th>
+                <th>Lohn</th>
+                <th>Ausbildung</th>
+                <th>Motivation</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>GRU (Sandworm/APT28)</td>
+                <td>Ja</td>
+                <td>Nein</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Interessen des Landes und militärische Dominanz</td>
+            </tr>
+            <tr>
+                <td>FSB</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Nationale Sicherheit und Machterhalt</td>
+            </tr>
+            <tr>
+                <td>SVR</td>
+                <td>Nein</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Geopolitische Vorteile</td>
+            </tr>
+            <tr>
+                <td>Pro-russische Hacktivisten</td>
+                <td>Ja</td>
+                <td>Nein</td>
+                <td>Nein</td>
+                <td>Nein</td>
+                <td>Patriotismus und ideologische Überzeugung</td>
+            </tr>
+            <tr>
+                <td>Cyberkriminelle (z. B. REvil)</td>
+                <td>Ja</td>
+                <td>Nein</td>
+                <td>Ja</td>
+                <td>Nein</td>
+                <td>Finanzielle Gewinne und staatliche Unterstützung</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <h2>Vergleich der Akteure: International</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Akteure</th>
+                <th>Angriff</th>
+                <th>Verteidigung</th>
+                <th>Lohn</th>
+                <th>Ausbildung</th>
+                <th>Motivation</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Anonymous</td>
+                <td>Ja</td>
+                <td>Nein</td>
+                <td>Nein</td>
+                <td>Nein</td>
+                <td>Kampf für Freiheit und gegen Unterdrückung</td>
+            </tr>
+            <tr>
+                <td>Andere Hackergruppen</td>
+                <td>Ja</td>
+                <td>Nein</td>
+                <td>Nein</td>
+                <td>Nein</td>
+                <td>Politische Überzeugung und Solidarität mit der Ukraine</td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 
     <!-- Interaktive Karte -->
@@ -75,14 +221,6 @@
         <button id="filterAll" class="button">Alle</button>
     </div>
 </main>
-
-<!-- Modal Structure -->
-<div id="myModal" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <img id="modalImg" src="" alt="Modal Image">
-    </div>
-</div>
 <footer>
     <div class="footer-content">
         <div class="footer-section about">
@@ -117,19 +255,16 @@
     // Karte initialisieren
     const map = L.map('map').setView([48.8566, 2.3522], 4); // Zentrum der Karte (Paris als Beispiel)
 
-    // Layer: Straßenansicht
     const streetLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 
-    // Layer: Satellitenansicht
     const satelliteLayer = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '© OpenStreetMap contributors'
     });
 
-    // Marker hinzufügen (Beispieldaten)
     const locations = [
         { lat: 50.4501, lng: 30.5234, title: 'Kyiv, Ukraine: Ziel von DDoS-Angriffen', category: 'Ukraine', details: 'Wichtiger Ort für Cyberangriffe auf staatliche Einrichtungen.' },
         { lat: 55.7558, lng: 37.6173, title: 'Moskau, Russland: Herkunft vieler Angriffe', category: 'Russia', details: 'Zahlreiche Angriffe werden hier koordiniert.' },
@@ -182,7 +317,6 @@
         markers.push({ marker, category: location.category });
     });
 
-    // Legende hinzufügen
     const legend = L.control({ position: 'topright' });
     legend.onAdd = function () {
         const div = L.DomUtil.create('div', 'legend');
@@ -190,7 +324,7 @@
         div.style.padding = '10px';
         div.style.border = '1px solid #ccc';
         div.style.borderRadius = '4px';
-        div.style.width = '150px'; // Optional: Einheitliche Breite festlegen
+        div.style.width = '150px';
         div.innerHTML = `
         <h4 style="margin: 0; margin-bottom: 10px;">Kategorien</h4>
         <ul style="list-style: none; padding: 0; margin: 0;">
@@ -209,7 +343,6 @@
 
     legend.addTo(map);
 
-    // Layer-Wechsel-Buttons
     document.getElementById('satelliteView').addEventListener('click', () => {
         map.removeLayer(streetLayer);
         map.addLayer(satelliteLayer);
@@ -219,7 +352,6 @@
         map.removeLayer(satelliteLayer);
         map.addLayer(streetLayer);
     });
-    // Filter-Buttons
     function filterMarkers(category) {
         markers.forEach(({ marker, category: markerCategory }) => {
             if (category === 'All' || markerCategory === category) {

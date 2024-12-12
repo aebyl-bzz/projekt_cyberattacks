@@ -1,31 +1,56 @@
-/* Grundlegendes Styling */
-body, h1, h2, h3, p, a, li {
+/* General Styles */
+body, h1, h2, h3, p, a {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #2C3E50; /* Hauptfarbe für Text */
+    color: #2C3E50;
 }
 
 body {
-    background-color: #F8F9FA; /* Dezenter Hintergrund */
+    background-color: #F8F9FA;
+    animation: fadeIn 1s ease-in-out;
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Header Styling */
 header {
-    background-color: #2C3E50; /* Dunkelblau für den Header */
+    background-color: #2C3E50;
     color: white;
     padding: 15px 0;
     text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+header .topnav a.active {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* Navigation Styling */
 .topnav {
     background-color: #2C3E50;
     overflow: hidden;
-    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .topnav #myLinks {
-    display: none; /* Versteckte Links im Normalfall */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.topnav.responsive #myLinks {
+    max-height: 500px;
 }
 
 .topnav a {
@@ -34,6 +59,7 @@ header {
     text-decoration: none;
     font-size: 16px;
     display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .topnav a.icon {
@@ -46,16 +72,11 @@ header {
     cursor: pointer;
 }
 
-.topnav a.active {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.topnav.responsive #myLinks {
-    display: block; /* Sichtbar bei responsivem Modus */
-}
 #myLinks a:hover {
     background-color: #3498DB;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 /* Hauptinhalt */
