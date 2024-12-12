@@ -49,12 +49,12 @@ header {
 .topnav {
     background-color: #2C3E50;
     overflow: hidden;
-    position: fixed; /* Fix the topnav at the top */
-    top: 0; /* Position it at the top of the page */
-    width: 100%; /* Make it span the full width of the page */
-    z-index: 1000; /* Ensure it stays above other content */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
     transition: background-color 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     align-items: center;
 }
 
@@ -309,15 +309,87 @@ footer p {
 }
 
 .chat-body .response {
-    margin-top: 10px;
     padding: 10px;
-    background-color: #f1f1f1;
-    border-radius: 4px;
-    height: 150px; /* Set a fixed height */
-    overflow-y: auto; /* Enable vertical scrolling */
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #2C3E50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
 }
 
-/* Footer Styling */
+.chat-footer {
+    padding: 10px;
+    background-color: #F8F9FA;
+    border-top: 1px solid #E0E0E0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-footer input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.chat-footer button {
+    padding: 10px 15px;
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.chat-footer button:hover {
+    background-color: #2980B9;
+}
+
+/* Animation for Chat Responses */
+@keyframes fadeInResponse {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.chat-body .response.new {
+    animation: fadeInResponse 0.5s ease-in-out;
+}
+footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: #3498DB;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
 footer {
     background-color: #2C3E50;
     color: white;
