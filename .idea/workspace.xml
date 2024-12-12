@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="footer changed">
-      <change afterPath="$PROJECT_DIR$/images/gps_10577670.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gps_10577677.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gps_10577745.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.js" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.js" afterDir="false" />
-    </list>
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="Produzenten erweitert" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,11 +53,11 @@
       <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\images" />
       <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\about" />
       <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\producer" />
       <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\main" />
       <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\geschichte" />
+      <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\cyberattacks" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -103,8 +94,7 @@
       <workItem from="1733834135563" duration="5584000" />
       <workItem from="1733839839748" duration="2887000" />
       <workItem from="1733862579734" duration="461000" />
-      <workItem from="1733917057473" duration="9554000" />
-      <workItem from="1733944563416" duration="5991000" />
+      <workItem from="1733917057473" duration="9228000" />
     </task>
     <task id="LOCAL-00001" summary="Grundstruktur erstes Update">
       <option name="closed" value="true" />
@@ -250,15 +240,7 @@
       <option name="project" value="LOCAL" />
       <updated>1733928848078</updated>
     </task>
-    <task id="LOCAL-00019" summary="footer changed">
-      <option name="closed" value="true" />
-      <created>1733929575333</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1733929575333</updated>
-    </task>
-    <option name="localTasksCounter" value="20" />
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +265,6 @@
     <MESSAGE value="animationen für das chatfenster" />
     <MESSAGE value="erweiterung der history seite und zeitstrahl hinzugefügt" />
     <MESSAGE value="Produzenten erweitert" />
-    <MESSAGE value="footer changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Produzenten erweitert" />
   </component>
 </project>
