@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="vergleichakteure tabellen neu gestaltet fürs handy">
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="vergleichakteure für mobile fertig gestellt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geschichte/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/geschichte/history.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geschichte/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/geschichte/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/producer.css" beforeDir="false" afterPath="$PROJECT_DIR$/producer/producer.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734038476108</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="vergleichakteure für mobile fertig gestellt">
+      <option name="closed" value="true" />
+      <created>1734039459663</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1734039459663</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +324,7 @@
     <MESSAGE value="vergleichakteure nun handy freundlicher" />
     <MESSAGE value="vergleichakteure gekürzt" />
     <MESSAGE value="vergleichakteure tabellen neu gestaltet fürs handy" />
-    <option name="LAST_COMMIT_MESSAGE" value="vergleichakteure tabellen neu gestaltet fürs handy" />
+    <MESSAGE value="vergleichakteure für mobile fertig gestellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="vergleichakteure für mobile fertig gestellt" />
   </component>
 </project>
