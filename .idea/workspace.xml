@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="vergleichakteure gekürzt" />
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="vergleichakteure tabellen neu gestaltet fürs handy">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -273,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734038174084</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="vergleichakteure tabellen neu gestaltet fürs handy">
+      <option name="closed" value="true" />
+      <created>1734038476108</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1734038476108</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +314,7 @@
     <MESSAGE value="Index now under root" />
     <MESSAGE value="vergleichakteure nun handy freundlicher" />
     <MESSAGE value="vergleichakteure gekürzt" />
-    <option name="LAST_COMMIT_MESSAGE" value="vergleichakteure gekürzt" />
+    <MESSAGE value="vergleichakteure tabellen neu gestaltet fürs handy" />
+    <option name="LAST_COMMIT_MESSAGE" value="vergleichakteure tabellen neu gestaltet fürs handy" />
   </component>
 </project>

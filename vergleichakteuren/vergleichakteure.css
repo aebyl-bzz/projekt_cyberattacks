@@ -287,3 +287,41 @@ footer h2 {
 .button.active {
     background-color: #2980B9;
 }
+@media screen and (max-width: 480px) {
+    table {
+        display: block;
+        width: 100%;
+        border: 0;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table tr {
+        display: block;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 10px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    table td {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+
+    table td::before {
+        content: attr(data-label); /* Name der Spalte */
+        font-weight: bold;
+        margin-right: 10px;
+        color: #2C3E50;
+    }
+
+    table td:last-child {
+        margin-bottom: 0;
+    }
+}
