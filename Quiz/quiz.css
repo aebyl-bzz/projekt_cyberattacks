@@ -192,3 +192,100 @@ footer p {
     font-size: 14px;
     margin: 0;
 }
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.footer-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer-section p, .footer-section ul {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #3498DB;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #2980B9;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+footer nav {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+footer a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+footer a:hover {
+    color: #3498DB;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+}
+
+footer h2 {
+    font-size: 1.8em;
+    margin-top: 15px;
+    border-bottom: 2px solid #3498DB; /* Akzentfarbe */
+    padding-bottom: 5px;
+}
