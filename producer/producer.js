@@ -6,6 +6,7 @@ function burgermenue() {
         x.className = "topnav";
     }
 }
+
 document.addEventListener("DOMContentLoaded", () => {
     const openModalButtons = document.querySelectorAll(".open-modal");
     const closeModalButtons = document.querySelectorAll(".close");

@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="z-index verändert">
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="footer changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz/quiz.css" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz/quiz.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz/quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz/quiz.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/benutzer/benutzer.css" beforeDir="false" afterPath="$PROJECT_DIR$/benutzer/benutzer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/benutzer/benutzer.html" beforeDir="false" afterPath="$PROJECT_DIR$/benutzer/benutzer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benutzer/benutzer.js" beforeDir="false" afterPath="$PROJECT_DIR$/benutzer/benutzer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberattacks/cyberattacks.css" beforeDir="false" afterPath="$PROJECT_DIR$/cyberattacks/cyberattacks.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberattacks/cyberattacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/cyberattacks/cyberattacks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geschichte/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/geschichte/history.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geschichte/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/geschichte/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/producer.css" beforeDir="false" afterPath="$PROJECT_DIR$/producer/producer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/producer.html" beforeDir="false" afterPath="$PROJECT_DIR$/producer/producer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/producer.js" beforeDir="false" afterPath="$PROJECT_DIR$/producer/producer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +113,6 @@
       <workItem from="1733862579734" duration="461000" />
       <workItem from="1733917057473" duration="9554000" />
       <workItem from="1733944563416" duration="5991000" />
-      <workItem from="1734014534506" duration="2415000" />
     </task>
     <task id="LOCAL-00001" summary="Grundstruktur erstes Update">
       <option name="closed" value="true" />
@@ -257,15 +266,7 @@
       <option name="project" value="LOCAL" />
       <updated>1733929575333</updated>
     </task>
-    <task id="LOCAL-00020" summary="z-index verändert">
-      <option name="closed" value="true" />
-      <created>1733989471247</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1733989471247</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +292,6 @@
     <MESSAGE value="erweiterung der history seite und zeitstrahl hinzugefügt" />
     <MESSAGE value="Produzenten erweitert" />
     <MESSAGE value="footer changed" />
-    <MESSAGE value="z-index verändert" />
-    <option name="LAST_COMMIT_MESSAGE" value="z-index verändert" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer changed" />
   </component>
 </project>

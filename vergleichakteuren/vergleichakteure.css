@@ -21,7 +21,28 @@ header {
     color: white;
     padding: 15px 0;
     text-align: center;
+    align-items: center;
     transition: background-color 0.3s ease;
+}
+
+/* Header Logo Styling */
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #2C3E50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.header-logo:hover {
+    transform: scale(1.05);
 }
 
 /* Navigation Styling */
@@ -31,9 +52,10 @@ header {
     position: fixed; /* Fix the topnav at the top */
     top: 0; /* Position it at the top of the page */
     width: 100%; /* Make it span the full width of the page */
-    z-index: 5000; /* Ensure it stays above other content */
+    z-index: 1000; /* Ensure it stays above other content */
     transition: background-color 0.3s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    align-items: center;
 }
 
 .topnav #myLinks {
@@ -60,7 +82,7 @@ header {
     position: absolute;
     right: 0;
     top: 0;
-    padding: 14px 20px;
+    padding: 6px 20px;
     font-size: 24px;
     cursor: pointer;
     transition: color 0.3s ease;

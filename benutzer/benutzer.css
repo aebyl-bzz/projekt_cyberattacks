@@ -16,31 +16,46 @@ body {
     to { opacity: 1; }
 }
 
-/* Header Styling */
 header {
     background-color: #2C3E50;
     color: white;
     padding: 15px 0;
     text-align: center;
+    align-items: center;
     transition: background-color 0.3s ease;
 }
 
-header .topnav a.active {
+/* Header Logo Styling */
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: bold;
+    background-color: #2C3E50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.header-logo:hover {
+    transform: scale(1.05);
 }
 
 /* Navigation Styling */
 .topnav {
     background-color: #2C3E50;
     overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+    position: fixed; /* Fix the topnav at the top */
+    top: 0; /* Position it at the top of the page */
+    width: 100%; /* Make it span the full width of the page */
+    z-index: 1000; /* Ensure it stays above other content */
     transition: background-color 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    align-items: center;
 }
 
 .topnav #myLinks {
@@ -67,9 +82,15 @@ header .topnav a.active {
     position: absolute;
     right: 0;
     top: 0;
-    padding: 14px 20px;
+    padding: 6px 20px;
     font-size: 24px;
     cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.topnav a.active {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #myLinks a:hover {
@@ -79,52 +100,47 @@ header .topnav a.active {
     transition: transform 0.3s ease;
 }
 
-/* Main Content Styling */
+/* Main Content Styles */
 main {
-    max-width: 1200px;
-    margin: 80px auto 20px auto; /* Adjust for fixed header */
     padding: 20px;
-    background: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff; /* Weißer Hintergrund für Klarheit */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Dezente Schatten */
     border-radius: 8px;
-    transition: box-shadow 0.3s ease;
-    animation: slideIn 1s ease-in-out;
 }
 
-@keyframes slideIn {
-    from { transform: translateY(20px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
-}
-
-main h1 {
-    font-size: 2.5em;
+/* Überschriften */
+h1, h2, h3 {
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-main h2 {
-    font-size: 2em;
-    border-bottom: 2px solid #3498DB;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
-    transition: border-color 0.3s ease;
+h1 {
+    font-size: 2.5em;
 }
 
-main h3 {
+h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    border-bottom: 2px solid #3498DB; /* Akzentfarbe */
+    padding-bottom: 5px;
+}
+
+h3 {
     font-size: 1.5em;
     margin-top: 20px;
     color: #34495E;
-    transition: color 0.3s ease;
 }
 
-main p {
+/* Absatztexte */
+p {
     font-size: 1.1em;
     line-height: 1.8;
     margin-bottom: 20px;
-    transition: color 0.3s ease;
 }
 
-/* Lists */
+/* Listen */
 ul {
     margin-left: 20px;
     margin-bottom: 20px;
@@ -137,8 +153,25 @@ ul > li {
     line-height: 1.6;
 }
 
+/* Highlighted Text Styles */
+.russianUser, .ukrainianUser, .internationalHackersSupporters {
+    margin-bottom: 30px;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
+    .topnav a.icon {
+        display: block;
+    }
+
+    .topnav.responsive #myLinks {
+        display: block;
+    }
+
+    main {
+        padding: 15px;
+    }
+
     h1 {
         font-size: 2em;
     }
@@ -155,14 +188,12 @@ ul > li {
         font-size: 1em;
     }
 }
-
 /* Footer Styling */
 footer {
     background-color: #2C3E50;
     color: white;
-    text-align: center;
     padding: 20px 0;
-    margin-top: 20px;
+    text-align: center;
     transition: background-color 0.3s ease;
 }
 
@@ -184,7 +215,6 @@ footer {
     font-size: 1.5em;
     margin-bottom: 10px;
     color: white;
-    border-bottom: 2px solid #3498DB;
 }
 
 .footer-section p, .footer-section ul {
@@ -247,94 +277,4 @@ footer p {
     font-size: 14px;
     margin-top: 10px;
     color: white;
-}
-
-/* Chat Icon */
-.chat-icon {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #3498DB;
-    color: white;
-    border-radius: 50%;
-    padding: 15px;
-    cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-}
-
-/* Chat Window */
-.chat-window {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 300px;
-    max-height: 400px;
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: none;
-    flex-direction: column;
-    z-index: 1000;
-    opacity: 0;
-    transform: scale(0.9);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.chat-window.open {
-    display: flex;
-    opacity: 1;
-    transform: scale(1);
-}
-
-.chat-header {
-    background-color: #2C3E50;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-
-.chat-body {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.chat-header h2 {
-    margin: 0;
-    font-size: 1.2em;
-    color: #FFFFFF;
-}
-
-.chat-body textarea {
-    width: 100%;
-    height: 100px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.chat-body button {
-    align-self: flex-end;
-    padding: 10px 20px;
-    background-color: #2C3E50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.chat-body .response {
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #f1f1f1;
-    border-radius: 4px;
-    height: 150px;
-    overflow-y: auto;
 }

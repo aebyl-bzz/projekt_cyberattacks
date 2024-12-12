@@ -1,82 +1,104 @@
-    /* Allgemeine Schriftart */
-    body, h1, h2, h3, p, ul, li, a {
-        font-family: Arial, Helvetica, sans-serif; /* Einheitliche Schrift */
-        color: #2C3E50; /* Standardfarbe für Text */
-        margin: 0;
-        padding: 0;
-    }
+/* General Styles */
+body, h1, h2, h3, p, a {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2C3E50;
+}
 
-    body {
-        background-color: #F8F9FA;
-        animation: fadeIn 1s ease-in-out;
-    }
+body {
+    background-color: #F8F9FA;
+    animation: fadeIn 1s ease-in-out;
+}
 
-    @keyframes fadeIn {
-        from { opacity: 0; }
-        to { opacity: 1; }
-    }
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
 
-    header {
-        background-color: #2C3E50;
-        color: white;
-        padding: 15px 0;
-        text-align: center;
-        transition: background-color 0.3s ease;
-    }
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
 
-    /* Navigation Styling */
-    .topnav {
-        background-color: #2C3E50;
-        overflow: hidden;
-        position: fixed; /* Fix the topnav at the top */
-        top: 0; /* Position it at the top of the page */
-        width: 100%; /* Make it span the full width of the page */
-        z-index: 1000; /* Ensure it stays above other content */
-        transition: background-color 0.3s ease;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-    }
+/* Header Logo Styling */
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #2C3E50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
 
-    .topnav #myLinks {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.5s ease-out;
-    }
+.header-logo:hover {
+    transform: scale(1.05);
+}
 
-    .topnav.responsive #myLinks {
-        max-height: 500px;
-    }
+/* Navigation Styling */
+.topnav {
+    background-color: #2C3E50;
+    overflow: hidden;
+    position: fixed; /* Fix the topnav at the top */
+    top: 0; /* Position it at the top of the page */
+    width: 100%; /* Make it span the full width of the page */
+    z-index: 1000; /* Ensure it stays above other content */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    align-items: center;
+}
 
-    .topnav a {
-        color: white;
-        padding: 12px 20px;
-        text-decoration: none;
-        font-size: 16px;
-        display: block;
-        transition: background-color 0.3s ease, color 0.3s ease;
-    }
+.topnav #myLinks {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
 
-    .topnav a.icon {
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-        padding: 14px 20px;
-        font-size: 24px;
-        cursor: pointer;
-        transition: color 0.3s ease;
-    }
+.topnav.responsive #myLinks {
+    max-height: 500px;
+}
 
-    .topnav a.active {
-        font-weight: bold;
-        font-size: 20px;
-    }
+.topnav a {
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
 
-    #myLinks a:hover {
-        background-color: #3498DB;
-        color: white;
-        transform: scale(1.1);
-        transition: transform 0.3s ease;
-    }
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 6px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.topnav a.active {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#myLinks a:hover {
+    background-color: #3498DB;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
 
     /* Main Content Styles */
     .cyberattacks-main {
