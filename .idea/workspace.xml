@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="footer changed">
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="Index now under root">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quiz/quiz.css" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz/quiz.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Quiz/quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz/quiz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benutzer/benutzer.css" beforeDir="false" afterPath="$PROJECT_DIR$/benutzer/benutzer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benutzer/benutzer.html" beforeDir="false" afterPath="$PROJECT_DIR$/benutzer/benutzer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyberattacks/cyberattacks.css" beforeDir="false" afterPath="$PROJECT_DIR$/cyberattacks/cyberattacks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cyberattacks/cyberattacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/cyberattacks/cyberattacks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geschichte/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/geschichte/history.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geschichte/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/geschichte/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/producer.css" beforeDir="false" afterPath="$PROJECT_DIR$/producer/producer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/producer.html" beforeDir="false" afterPath="$PROJECT_DIR$/producer/producer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/producer.js" beforeDir="false" afterPath="$PROJECT_DIR$/producer/producer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +56,11 @@
       <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks" />
       <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\images" />
       <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\about" />
       <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\producer" />
       <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\main" />
-      <recent name="C:\Users\enzot\WebstormProjects\projekt_cyberattacks\geschichte" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -266,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733929575333</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Index now under root">
+      <option name="closed" value="true" />
+      <created>1734035920333</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1734035920333</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +286,7 @@
     <MESSAGE value="erweiterung der history seite und zeitstrahl hinzugefügt" />
     <MESSAGE value="Produzenten erweitert" />
     <MESSAGE value="footer changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer changed" />
+    <MESSAGE value="Index now under root" />
+    <option name="LAST_COMMIT_MESSAGE" value="Index now under root" />
   </component>
 </project>

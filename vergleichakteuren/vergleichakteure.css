@@ -49,12 +49,12 @@ header {
 .topnav {
     background-color: #2C3E50;
     overflow: hidden;
-    position: fixed; /* Fix the topnav at the top */
-    top: 0; /* Position it at the top of the page */
-    width: 100%; /* Make it span the full width of the page */
-    z-index: 1000; /* Ensure it stays above other content */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
     transition: background-color 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     align-items: center;
 }
 
@@ -176,6 +176,7 @@ main p {
     transition: color 0.3s ease;
 }
 
+
 .cyberdomainimg a:hover {
     text-decoration: underline;
     color: #2980B9;
@@ -197,6 +198,25 @@ main p {
 
     p {
         font-size: 1em;
+    }
+
+    .topnav a {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        min-width: 100%;
+        text-align: center;
     }
 }
 
@@ -236,8 +256,9 @@ footer p {
 footer {
     background-color: #2C3E50;
     color: white;
-    padding: 20px 0;
     text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
     transition: background-color 0.3s ease;
 }
 
@@ -254,7 +275,6 @@ footer {
     padding: 10px;
     min-width: 200px;
 }
-
 .footer-section h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
@@ -314,10 +334,11 @@ footer a img {
 footer a:hover {
     color: #3498DB;
 }
+
 footer p {
     font-size: 14px;
     margin-top: 10px;
-    color : white;
+    color: white;
 }
 /* Chat Icon */
 .chat-icon {
@@ -333,10 +354,46 @@ footer p {
     z-index: 1000;
 }
 footer h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: white;
+    font-size: 1.8em;
+    margin-top: 15px;
+    border-bottom: 2px solid #3498DB;
+    padding-bottom: 5px;
 }
+
+.button {
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2980B9;
+}
+
+.button.active {
+    background-color: #2980B9;
+}
+/* Chat Icon */
+.chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498DB;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
 /* Chat Window */
 .chat-window {
     position: fixed;
@@ -408,8 +465,8 @@ footer h2 {
     padding: 10px;
     background-color: #f1f1f1;
     border-radius: 4px;
-    height: 150px; /* Set a fixed height */
-    overflow-y: auto; /* Enable vertical scrolling */
+    height: 150px;
+    overflow-y: auto;
 }
 
 
@@ -424,11 +481,11 @@ footer h2 {
 
 /* Styling for the images */
 .vergleich-img {
-    width: 300px; /* Set a fixed width */
-    height: 200px; /* Set a fixed height */
-    object-fit: cover; /* Ensure the image covers the area */
-    margin: 0; /* Remove any margin */
-    border: none; /* Remove individual image borders */
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0;
+    border: none;
 }
 
 /* Modal styling */
