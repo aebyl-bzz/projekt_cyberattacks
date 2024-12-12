@@ -31,7 +31,7 @@ header {
     position: fixed; /* Fix the topnav at the top */
     top: 0; /* Position it at the top of the page */
     width: 100%; /* Make it span the full width of the page */
-    z-index: 1000; /* Ensure it stays above other content */
+    z-index: 5000; /* Ensure it stays above other content */
     transition: background-color 0.3s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
