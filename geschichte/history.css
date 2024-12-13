@@ -9,6 +9,11 @@ body, h1, h2, h3, p, a {
 body {
     background-color: #F8F9FA;
     animation: fadeIn 1s ease-in-out;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
 @keyframes fadeIn {
@@ -23,6 +28,7 @@ header {
     text-align: center;
     align-items: center;
     transition: background-color 0.3s ease;
+    width: 100%;
 }
 
 /* Header Logo Styling */
@@ -102,14 +108,19 @@ header {
 
 /* Main Content */
 main {
-    max-width: 1200px;
+    width: 100%; /* Full width */
     margin: 20px auto;
-    padding: 20px;
+    padding: 0;
     background: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     transition: box-shadow 0.3s ease;
     animation: slideIn 1s ease-in-out;
+    word-wrap: break-word;
+}
+
+main section{
+    padding: 10px;
 }
 
 @keyframes slideIn {
@@ -201,200 +212,8 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
-}
-
-footer nav {
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    transition: color 0.3s ease;
-}
-
-footer a:hover {
-    color: #3498DB;
-}
-
-footer p {
-    font-size: 14px;
-    margin-top: 10px;
-}
-
-/* Chat Icon */
-.chat-icon {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #3498DB;
-    color: white;
-    border-radius: 50%;
-    padding: 15px;
-    cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-}
-
-/* Chat Window */
-.chat-window {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 300px;
-    max-height: 400px;
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: none;
-    flex-direction: column;
-    z-index: 1000;
-    opacity: 0;
-    transform: scale(0.9);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.chat-window.open {
-    display: flex;
-    opacity: 1;
-    transform: scale(1);
-}
-
-.chat-header {
-    background-color: #2C3E50;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-
-.chat-body {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.chat-header h2 {
-    margin: 0;
-    font-size: 1.2em;
-    color: #FFFFFF;
-}
-
-.chat-body textarea {
-    width: 100%;
-    height: 100px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.chat-body button {
-    align-self: flex-end;
-    padding: 10px 20px;
-    background-color: #2C3E50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.chat-body .response {
-    padding: 10px;
-    background-color: #F0F0F0;
-    border-radius: 8px;
-    font-size: 0.9em;
-    line-height: 1.5;
-    color: #2C3E50;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-}
-
-.chat-footer {
-    padding: 10px;
-    background-color: #F8F9FA;
-    border-top: 1px solid #E0E0E0;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.chat-footer input {
-    flex: 1;
-    padding: 10px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.chat-footer button {
-    padding: 10px 15px;
-    background-color: #3498DB;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.chat-footer button:hover {
-    background-color: #2980B9;
-}
-
-/* Animation for Chat Responses */
-@keyframes fadeInResponse {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.chat-body .response.new {
-    animation: fadeInResponse 0.5s ease-in-out;
-}
-footer {
-    background-color: #2C3E50;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 14px;
-}
-
-footer a:hover {
-    color: #3498DB;
-}
-
-footer p {
-    font-size: 14px;
-    margin: 0;
-}
-
-footer {
-    background-color: #2C3E50;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
     transition: background-color 0.3s ease;
 }
 
@@ -483,6 +302,13 @@ footer p {
 footer h2 {
     font-size: 1.8em;
     margin-top: 15px;
-    border-bottom: 2px solid #3498DB; /* Akzentfarbe */
+    border-bottom: 2px solid #3498DB;
     padding-bottom: 5px;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+    footer {
+        width: 100%; /* Ensure full width on mobile */
+    }
 }
