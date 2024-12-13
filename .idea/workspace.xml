@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="vergleichakteure für mobile fertig gestellt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geschichte/history.css" beforeDir="false" afterPath="$PROJECT_DIR$/geschichte/history.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geschichte/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/geschichte/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/producer/producer.css" beforeDir="false" afterPath="$PROJECT_DIR$/producer/producer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quiz/quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/Quiz/quiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benutzer/benutzer.html" beforeDir="false" afterPath="$PROJECT_DIR$/benutzer/benutzer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cyberattacks/cyberattacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/cyberattacks/cyberattacks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geschichte/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/geschichte/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer/producer.html" beforeDir="false" afterPath="$PROJECT_DIR$/producer/producer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" beforeDir="false" afterPath="$PROJECT_DIR$/vergleichakteuren/vergleichakteure.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +104,7 @@
       <workItem from="1733862579734" duration="461000" />
       <workItem from="1733917057473" duration="9554000" />
       <workItem from="1733944563416" duration="5991000" />
+      <workItem from="1734071735459" duration="578000" />
     </task>
     <task id="LOCAL-00001" summary="Grundstruktur erstes Update">
       <option name="closed" value="true" />
