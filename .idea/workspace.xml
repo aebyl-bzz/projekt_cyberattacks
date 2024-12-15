@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="Responsive design almost finished. Still working on header in Producer and footer">
+    <list default="true" id="28913b5b-5689-4fc9-b341-d57873d53b8b" name="Changes" comment="Responsive design finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benutzer/benutzer.css" beforeDir="false" afterPath="$PROJECT_DIR$/benutzer/benutzer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producer/producer.css" beforeDir="false" afterPath="$PROJECT_DIR$/producer/producer.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +101,9 @@
       <workItem from="1733862579734" duration="461000" />
       <workItem from="1733917057473" duration="9554000" />
       <workItem from="1733944563416" duration="5991000" />
+      <workItem from="1734087530928" duration="149000" />
+      <workItem from="1734260887407" duration="34000" />
+      <workItem from="1734265201146" duration="1841000" />
     </task>
     <task id="LOCAL-00001" summary="Grundstruktur erstes Update">
       <option name="closed" value="true" />
@@ -260,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734086174328</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Responsive design finished">
+      <option name="closed" value="true" />
+      <created>1734087243882</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1734087243882</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +300,7 @@
     <MESSAGE value="Produzenten erweitert" />
     <MESSAGE value="footer changed" />
     <MESSAGE value="Responsive design almost finished. Still working on header in Producer and footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Responsive design almost finished. Still working on header in Producer and footer" />
+    <MESSAGE value="Responsive design finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive design finished" />
   </component>
 </project>
